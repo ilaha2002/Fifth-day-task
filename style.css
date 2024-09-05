@@ -45,7 +45,6 @@ header {
 }
 nav {
     width: 400px;
-    /* padding-bottom: 8px; */
     font-size: 12px;
 }
 nav .active {
@@ -99,7 +98,6 @@ main {
     border-width: 1px;
     border-radius: 60px;
 }
-
 .littleDivPhoto {
     width: 387px;
     height: 387px;
@@ -210,10 +208,10 @@ input, textarea {
     border-style: solid;
     border-radius: 10px;
 }
-  #message {
+#message {
     height: 100px;
-  }
-  .send {
+}
+.send {
     width: 50px;
     font-size: 10px;
     font-weight: 400;
