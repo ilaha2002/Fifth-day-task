@@ -1,0 +1,238 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif; 
+}
+
+header, .center, div .heading, nav, main, .bigDiv, .border, .copyrightDiv, .littleDivPhoto, .box, .roundDiv, .innerBorderDiv, .line, .box1, .box2, .littleDivInput, .icons, .box3,  .copyright {
+    display: flex; 
+}
+main, .copyrightDiv, .box, .innerBorderDiv, .box1, .box2, .littleDivInput, .box3 {
+    flex-direction: column;
+}
+header, main, .border, .littleDivPhoto, .roundDiv {
+    justify-content: center;
+}
+.center, nav, .bigDiv, .line, .icons, .notactive {
+    justify-content: space-between;
+}
+.innerBorderDiv, .box1, .box2, .littleDivInput {
+    justify-content: space-evenly;
+}
+div .heading, main, .bigDiv, .border, .littleDivPhoto, .roundDiv, .innerBorderDiv, .innerBorderDiv, .line {
+    align-items: center;
+}
+.heading h1, .active, .textHeadings h4, #clock, #clock1, ::placeholder {
+    color: #ab882c;
+}
+.roundDiv, .innerBorderDiv, input, textarea{
+    border-color: #ab882c;
+}
+header, .littleDivPhoto, .littleDivInput, input, textarea {
+    background-color:  #1e1c1a;
+}
+.container{
+    background-color: #2a2a2a;
+}
+header {
+    border-bottom:#937425;
+    border-style: solid;
+    border-width: 1.5px;
+}
+.center {
+    align-items: end;
+    width: 900px;
+}
+nav {
+    width: 400px;
+    /* padding-bottom: 8px; */
+    font-size: 12px;
+}
+nav .active {
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 8px 10px 11px 10px;
+    margin-top: -10px;
+    border-bottom: #2a2a2a;
+    border-style: solid;
+    position: absolute;
+    background-color: #2a2a2a;
+}
+.notactive {
+    margin-left: 80px;
+    display: flex;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.heading h1{
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+h3, h4, h1{
+    color: #896832;
+}
+p {
+    color: rgb(175, 173, 173);
+    font-size: 15px;
+}
+button {
+    background-color: #896832;
+    padding: 10px 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+}
+main {
+    margin-top: 100px;
+    padding-bottom: 250px;
+}
+.bigDiv {
+    width: 900px;
+}
+.border {
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-color: #76592b;
+    border-width: 1px;
+    border-radius: 60px;
+}
+
+.littleDivPhoto {
+    width: 387px;
+    height: 387px;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: rgb(44, 42, 42);
+}
+.littleDivPhoto img {
+    width:300px;
+    height: 300px;
+    border-radius: 30px;
+    position: relative;
+}
+#clock {
+    position: absolute;
+    padding-bottom: 170px;
+    padding-left: 150px;
+}
+.littleDiv {
+    width: 400px;
+}
+.box {
+    width: 380px;
+    height: 300px;
+    justify-content: space-around;
+}
+.roundDiv {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border-width: 3px;
+    border-style: solid;
+}
+.roundDiv img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border-width: 1.5px;
+    border-style: solid;
+}
+.innerBorderDiv {
+    border-style: solid;
+    border-radius: 10%;
+    border-width: 1px;
+    width: 330px;
+    height: 330px;
+}
+h5{
+    color: #937425;
+}
+hr {
+    width: 170px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #88642a, rgba(0, 0, 0, 0));
+}
+.innerBorderDiv p{
+    text-align: center;
+    color: rgb(143, 142, 142);
+}
+.innerBorderDiv h4 {
+    font-weight: 400;
+}
+.listDiv p{
+    font-size: 10px;
+    width: 200px;
+    text-align: start;
+}
+.line {
+    width: 280px;
+}
+.line img {
+    width: 60px;
+    height: 60px;
+}
+h6{
+    color: #88642a;
+}
+.box1 {
+    text-align: end;
+    width: 380px;
+    height: 300px;
+}
+.box2 {
+    width: 380px;
+    height: 200px;
+}
+#table {
+   height: 130px;
+   width: 200px;
+}
+#clock1 {
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 270px;
+}
+.littleDivInput {
+    width: 337px;
+    height: 347px;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: rgb(44, 42, 42);
+    padding: 20px 20px 20px 30px;
+}
+input, textarea {
+    width: 300px;
+    padding: 8px;
+    border-style: solid;
+    border-radius: 10px;
+}
+  #message {
+    height: 100px;
+  }
+  .send {
+    width: 50px;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 7px 5px;
+    border-style: hidden;
+  }
+  #icon {
+    width: 25px;
+  }
+  .icons {
+    width:200px;
+  }
+  .box3 {
+    width: 380px;
+    height: 200px;
+    justify-content: space-around;
+  }
+  .copyright {
+    margin: 20px 0px 0px 50px;
+    font-size: 8px;
+    color: #604a12;
+  }
